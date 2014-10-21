@@ -1,0 +1,5 @@
+{
+	"name": "bti-dom-utils",
+	"version": "1.0.0",
+	"main": "./dom-utils.js"
+}
