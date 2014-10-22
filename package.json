@@ -1,6 +1,6 @@
 {
 	"name": "bti-dom-utils",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A semi-random collection of useful DOM tools.",
 	"author": "Beneath the Ink <info@beneaththeink.com>",
 	"contributors": [

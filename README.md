@@ -16,7 +16,11 @@ If using Browserify, you can install via NPM and use with `require("bti-dom-util
 $ npm install bti-dom-utils
 ```
 
-This library is just a plain object with several methods on it.
+This library is just a plain object with several methods on it. Here is quick example of usage.
+
+```javascript
+DOMUtils.contains(document, document.body); // true
+```
 
 ## Documentation
 
