@@ -1,5 +1,33 @@
 {
 	"name": "bti-dom-utils",
 	"version": "1.0.0",
-	"main": "./dom-utils.js"
+	"description": "A semi-random collection of useful DOM tools.",
+	"author": "Beneath the Ink <info@beneaththeink.com>",
+	"contributors": [
+		{
+			"name": "Tyler Johnson",
+			"email": "tyler@beneaththeink.com",
+			"url": "http://github.com/tyler-johnson"
+		}
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/BeneathTheInk/dom-utils.git"
+	},
+	"main": "./dom-utils.js",
+	"devDependencies": {
+		"grunt": "^0.4.5",
+		"grunt-browserify": "^3.1.0",
+		"grunt-contrib-clean": "^0.6.0",
+		"grunt-contrib-uglify": "^0.6.0",
+		"grunt-exorcise": "^0.2.0",
+		"grunt-wrap2000": "^0.1.0"
+	},
+	"license": "MIT",
+	"keywords": [
+		"DOM",
+		"utility",
+		"element",
+		"browser"
+	]
 }
