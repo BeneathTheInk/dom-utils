@@ -1,0 +1,5 @@
+# files not included in NPM package
+dist/
+test/
+Gruntfile.js
+jsdoc.conf.json
