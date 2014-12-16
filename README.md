@@ -24,13 +24,11 @@ DOMUtils.contains(document, document.body); // true
 
 ## Documentation
 
-For quick documentation on each function, please see the inline comments in the source code. These comments are in JSDoc3 format, so you can also build them for a prettier experience.
+For quick documentation on each function, please see the inline comments in the source code. These comments are in [Doxxo](https://github.com/BeneathTheInk/doxxo) format, so you can also build them for a prettier experience.
 
 ```bash
-jsdoc -c jsdoc.conf.json lib/dom-utils.js README.md
+npm run build-docs
 ```
-
-If you don't have JSDoc3 installed globally, run `npm install -g jsdoc3` before running that command.
 
 ## How to Build from Scratch
 
