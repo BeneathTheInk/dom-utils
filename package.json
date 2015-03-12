@@ -18,7 +18,7 @@
 		"url": "https://github.com/BeneathTheInk/dom-utils.git"
 	},
 	"scripts": {
-		"build-docs": "./node_modules/.bin/doxxo -l bti ./lib/*.js",
+		"build-docs": "./node_modules/.bin/doxxo -l bti index.js",
 		"dev": "node test/browser"
 	},
 	"main": "index.js",
