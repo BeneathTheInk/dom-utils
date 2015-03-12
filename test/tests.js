@@ -1,3 +1,6 @@
+var DOMUtils = require("../");
+var expect = require("./utils/expect");
+
 describe("DOM Utilities", function() {
 
 	describe("matches", function() {
@@ -79,14 +82,6 @@ describe("DOM Utilities", function() {
 
 			expect(DOMUtils.getPreviousNode(cont)).to.equal(null);
 		});
-	});
-
-	describe("cursors", function() {
-
-	});
-
-	describe("miscellaneous", function() {
-
 	});
 
 });
