@@ -5,14 +5,14 @@ module.exports = function(grunt) {
 		clean: [ "dist/*.js" ],
 		browserify: {
 			dist: {
-				src: "lib/index.js",
+				src: "index.js",
 				dest: "dist/dom-utils.js",
 				options: {
 					browserifyOptions: { standalone: "DOMUtils" }
 				}
 			},
 			dev: {
-				src: "lib/index.js",
+				src: "index.js",
 				dest: "dist/dom-utils.dev.js",
 				options: {
 					browserifyOptions: { debug: true, standalone: "DOMUtils" }
