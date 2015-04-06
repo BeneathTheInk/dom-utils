@@ -18,7 +18,7 @@ var Element = global.Element;
  */
 var isNode =
 exports.isNode = function(node) {
-	return node instanceof Node;
+	return node != null && typeof node.nodeType === "number";
 }
 
 /**
@@ -58,7 +58,7 @@ exports.matches = function(node, selector) {
 		return matches(node, s);
 	});
 
-	if (selector instanceof Node) {
+	if (isNode(selector)) {
 		return node === selector;
 	}
 	
